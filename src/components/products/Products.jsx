@@ -18,7 +18,7 @@ const Products = () => {
             className="relative sm:max-w-[335px] min-h-[440px] rounded-[4px] w-full group cursor-pointer"
           >
             <div className="bg-[#F6F6F6] w-full sm:max-w-[335px] min-h-[337px] flex items-center justify-center p-4">
-              <img src={product.image} alt={product.title} />
+              <img src={product.image} alt={product.title} className="hover:scale-105 duration-300"/>
             </div>
             <h2 className="text-[#1E1D1D] text-[24px] font-semibold text-center my-[8px]">{product.title}</h2>
             <img src={product.imgStar} alt="star" className="mx-auto"/>
@@ -33,6 +33,7 @@ const Products = () => {
           </div>
         ))}
       </div>
+      <button className="w-[200px] h-[46px] rounded-[15px] bg-[#3858D6] text-[18px] font-semibold text-white mx-auto flex justify-center items-center hover:bg-blue-800 duration-300 cursor-pointer mb-[100px]">View More</button>
     </div>
   );
 };

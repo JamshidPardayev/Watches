@@ -78,3 +78,20 @@ export const PRODUCTS = [
     imgStar: "./image/star5.png",
   },
 ];
+
+export const COMMENTS = [
+  {
+    id: 1,
+    image: "./image/Hamza.png",
+    name: "Hamza Faizi",
+    comment: "Don’t waste time, just order! This is the best website to puschase smart watches.",
+    imageStar: "./image/star5.png" 
+  },
+  {
+    id: 1,
+    image: "./image/Hafiz.png",
+    name: "Hafiz Huzaifa",
+    comment: "I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.",
+    imageStar: "./image/star5.png" 
+  }
+]
