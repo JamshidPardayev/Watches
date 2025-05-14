@@ -12,7 +12,7 @@ const Contact = () => {
          </form>
       </div>
       <div>
-        <img src="./image/contactImg.png" alt="contactimage" className=''/>
+        <img src="./image/contactImg.png" alt="contactimage" className='hover:scale-105 duration-300 cursor-pointer '/>
       </div>
     </div>
   )
